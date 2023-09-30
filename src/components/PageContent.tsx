@@ -15,22 +15,22 @@ import {
 
   const PageContentContainer = styled.div`
     display: flex;
- margin: 110px auto;
+ margin: 80px auto;
     gap: 50px;
     
   `
   const FilterContainer = styled.div`
     display: flex;
-   gap: 20px;
-
-
+     gap: 20px;
     flex-direction: column;
     margin: 0 auto;
+ 
   `
 
     const FilteredListContainer = styled.div`
     display: flex;
     align-items: center;
+
   `;
 
 
@@ -41,11 +41,11 @@ return(
         <FilterContainer>
 
 
-       <Button style={{color:"#9AA6AC", fontSize:"15px",height:"40px" }} >  <SearchOutlined style={{fontSize:"18px"}}/>search by name, edu exp or #tag  <InfoCircleOutlined style={{marginLeft:"30px"}}/></Button>
+       <Button style={{color:"#9AA6AC", fontSize:"15px",height:"34px", borderRadius:'5px' }} >  <SearchOutlined style={{fontSize:"18px"}}/>search by name, edu exp or #tag  <InfoCircleOutlined style={{marginLeft:"30px"}}/></Button>
       
       
        <FilteredListContainer>
-       <List  style={{backgroundColor:"#fff", width:"330px", padding:"10px"}}>
+       <List  style={{backgroundColor:"#fff", width:"330px", padding:"10px", }}>
         <List.Item style={{display:"flex", alignItems:"center", justifyContent:"space-between",  }}><Typography.Paragraph style={{fontWeight:"700"}}>Filter</Typography.Paragraph><Typography.Paragraph> 0 selected</Typography.Paragraph> </List.Item>
       
       <List.Item   style={{display:"flex", justifyContent:"space-between", alignItems:"center"}}>

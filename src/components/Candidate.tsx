@@ -46,7 +46,7 @@ const CandidateData: Candidate[] = [
 ];
 
 const CandidateContainer = styled.div`
-  width: 1000px;
+  width: 600px;
   background-color: #fff;
 `;
 

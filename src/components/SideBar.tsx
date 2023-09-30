@@ -29,10 +29,10 @@ const SideBarHeader = styled.div`
 const SideBarIcon = styled.div`
 display: flex;
     flex-direction: column;
-    
+    align-items: center;
     justify-content: space-between;
     margin: 10px;
-    gap: 40px;
+    gap: 25px;
 `
 
 const Gray = styled.span`

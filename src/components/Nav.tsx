@@ -25,12 +25,12 @@ const Selectstyle = styled(Select)`
     color:#1D4ED8;
     font-weight:bold;
     border-radius: 10px;
-    font-size: 15px; 
+    font-size: 13px; 
   }
  
   & .ant-select-selector {
 border: none;
-padding: 3px;
+padding: 2px;
 border-radius: 15px;
 
 }
@@ -79,7 +79,7 @@ const Nav = () => {
     <SiderElementContained>
     <SideBarContainer>
       <TypeContainer>
-      <Typography.Title style={{ color: "#1D4ED8", fontSize: "20px" }}>
+      <Typography.Title style={{ color: "#1D4ED8", fontSize: "17px" }}>
         London internship program
       </Typography.Title>
     <Typography.Paragraph style={{color:"#0B0B0B"}}>London</Typography.Paragraph>
@@ -116,7 +116,7 @@ const Nav = () => {
        <UserAddOutlined style={{ fontSize: '20px', backgroundColor:"#fff", padding:"9px", borderRadius:"9%", color:"#0B0B0B" , height:"50%"}} />
        <UserSwitchOutlined style={{ fontSize: '20px', backgroundColor:"#fff", padding:"9px", borderRadius:"9%", color:"#0B0B0B", height:"50%" }} />
        <MailOutlined style={{ fontSize: '20px', backgroundColor:"#fff", padding:"9px", borderRadius:"9%", color:"#0B0B0B", height:"50%" }}  />
-       <Button style={{backgroundColor:"#1D5ECD", color:"#fff", border:"none", fontSize:'14px', 
+       <Button style={{backgroundColor:"#1D5ECD", color:"#fff", border:"none", fontSize:'12px', 
       }}  > Move to video interview    <DownOutlined style={{marginLeft:"1.5rem"}}/></Button >
        </NavIcons>
    
