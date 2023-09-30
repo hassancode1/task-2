@@ -8,11 +8,8 @@ interface Candidate {
   CandidateName: string;
   CandidateCountry: string;
   CandidateSchool: string;
-}
+};
 
-interface CandidateProps {
-  candidate: Candidate;
-}
 
 const CandidateData: Candidate[] = [
   {
